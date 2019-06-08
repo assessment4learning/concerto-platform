@@ -144,7 +144,7 @@ upload_list:
             file.tooltip: Yüklemek istediğiniz dosyaları seçin
     
 code:
-    F11: tam-ekran modu
+    F10: tam-ekran modu
     shift.tab: seçilen kodu biçimlendir
     ctrl.space: oto-tamamla
     documentation:

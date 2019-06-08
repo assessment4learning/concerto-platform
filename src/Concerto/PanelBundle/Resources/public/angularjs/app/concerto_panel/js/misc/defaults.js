@@ -23,7 +23,7 @@ Defaults.ckeditorPanelContentOptions = {
         indentWithTabs: true,
         mode: 'htmlmixed',
         extraKeys: {
-            "F11": function (cm) {
+            "F10": function (cm) {
                 cm.setOption("fullScreen", !cm.getOption("fullScreen"));
             },
             "Esc": function (cm) {
@@ -84,7 +84,7 @@ Defaults.ckeditorTestContentOptions = {
         indentWithTabs: true,
         mode: 'htmlmixed',
         extraKeys: {
-            "F11": function (cm) {
+            "F10": function (cm) {
                 cm.setOption("fullScreen", !cm.getOption("fullScreen"));
             },
             "Esc": function (cm) {

@@ -45,7 +45,7 @@ function ViewTemplateController($scope, $uibModal, $http, $filter, $state, $sce,
         viewportMargin: Infinity,
         readOnly: $scope.object.starterContent && !$scope.administrationSettingsService.starterContentEditable,
         extraKeys: {
-            "F11": function (cm) {
+            "F10": function (cm) {
                 cm.setOption("fullScreen", !cm.getOption("fullScreen"));
             },
             "Esc": function (cm) {
@@ -62,7 +62,7 @@ function ViewTemplateController($scope, $uibModal, $http, $filter, $state, $sce,
         viewportMargin: Infinity,
         readOnly: $scope.object.starterContent && !$scope.administrationSettingsService.starterContentEditable,
         extraKeys: {
-            "F11": function (cm) {
+            "F10": function (cm) {
                 cm.setOption("fullScreen", !cm.getOption("fullScreen"));
             },
             "Esc": function (cm) {
@@ -79,7 +79,7 @@ function ViewTemplateController($scope, $uibModal, $http, $filter, $state, $sce,
         viewportMargin: Infinity,
         readOnly: $scope.object.starterContent && !$scope.administrationSettingsService.starterContentEditable,
         extraKeys: {
-            "F11": function (cm) {
+            "F10": function (cm) {
                 cm.setOption("fullScreen", !cm.getOption("fullScreen"));
             },
             "Esc": function (cm) {

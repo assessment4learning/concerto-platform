@@ -167,7 +167,7 @@ upload_list:
             file.tooltip: Choose file you wish to upload
     
 code:
-    F11: full-screen mode
+    F10: full-screen mode
     shift.tab: format selected code
     ctrl.space: autocomplete
     documentation:

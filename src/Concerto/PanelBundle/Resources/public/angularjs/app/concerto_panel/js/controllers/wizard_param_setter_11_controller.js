@@ -18,14 +18,14 @@ function WizardParamSetter11Controller($scope, AdministrationSettingsService, RD
       wizardService: RDocumentation
     },
     extraKeys: {
-      "F11": function (cm) {
+      "F10": function (cm) {
         cm.setOption("fullScreen", !cm.getOption("fullScreen"));
       },
       "Esc": function (cm) {
         if (cm.getOption("fullScreen"))
           cm.setOption("fullScreen", false);
       },
-      "Ctrl-Space": "autocomplete"
+      "Ctrl-M": "autocomplete"
     }
   };
   if (RDocumentation.functionIndex === null) {

@@ -128,7 +128,7 @@ upload_list:
             file.tooltip: Choisissez un fichier que vous souhaitez téléverser
     
 code:
-    F11: Mode plein-écran
+    F10: Mode plein-écran
     shift.tab:  Code du format sélectionné
     ctrl.space: Autocomplétion
     documentation:

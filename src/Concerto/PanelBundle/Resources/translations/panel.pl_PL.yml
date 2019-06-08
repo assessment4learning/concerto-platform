@@ -167,7 +167,7 @@ upload_list:
             file.tooltip: Wybierz plik który chcesz wysłać
 
 code:
-    F11: tryb pełno-ekranowy
+    F10: tryb pełno-ekranowy
     shift.tab: formatuj zaznaczony kod
     ctrl.space: autouzupełnianie kodu
     documentation:
