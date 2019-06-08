@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER Przemyslaw Lis <przemek@concertoplatform.com>
+MAINTAINER Assessment4Learning <assessment4learning@example.com>
 
 ARG CRAN_MIRROR=https://cloud.r-project.org
 
@@ -17,7 +17,7 @@ ENV PHP_FPM_PM_MIN_SPARE_SERVERS=5
 ENV PHP_FPM_PM_MAX_SPARE_SERVERS=15
 ENV PHP_FPM_PM_PROCESS_IDLE_TIMEOUT=10s
 ENV PHP_FPM_PM_MAX_REQUESTS=300
-ENV TZ=Europe/London
+ENV TZ=Asia/Hong_Kong
 
 COPY . /app/concerto/
 ADD https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh /
@@ -52,7 +52,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone \
  && rm -rf /var/lib/apt/lists/* \
  && sed -i 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen \
  && locale-gen "en_US.UTF-8" \
- && Rscript -e "install.packages(c('session','RMySQL','jsonlite','catR','digest','rjson','httr'), repos='$CRAN_MIRROR')" \
+ && Rscript -e "install.packages(c('session','RMySQL','jsonlite','catR','GDINA','digest','rjson','httr'), repos='$CRAN_MIRROR')" \
  && R CMD INSTALL /app/concerto/src/Concerto/TestBundle/Resources/R/concerto5 \
  && chmod +x /wait-for-it.sh \
  && php /app/concerto/bin/console concerto:r:cache \

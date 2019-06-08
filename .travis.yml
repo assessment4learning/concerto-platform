@@ -17,9 +17,9 @@ install:
   - cd $TRAVIS_BUILD_DIR/src/Concerto/PanelBundle/Resources/public/angularjs && bower install --allow-root
   - cd $TRAVIS_BUILD_DIR/src/Concerto/TestBundle/Resources/public/angularjs && bower install --allow-root
   - cd $TRAVIS_BUILD_DIR
-  - docker build -t campsych/concerto-platform:$TRAVIS_BRANCH .
-  - docker tag campsych/concerto-platform:$TRAVIS_BRANCH campsych/concerto-platform:test
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then docker tag campsych/concerto-platform:$TRAVIS_BRANCH campsych/concerto-platform:latest; fi
+  - docker build -t assessment4learning/concerto-platform:$TRAVIS_BRANCH .
+  - docker tag assessment4learning/concerto-platform:$TRAVIS_BRANCH assessment4learning/concerto-platform:test
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then docker tag assessment4learning/concerto-platform:$TRAVIS_BRANCH assessment4learning/concerto-platform:latest; fi
 
 script: docker-compose -f ./build/travis/docker-compose.yml up --build --exit-code-from concerto
 

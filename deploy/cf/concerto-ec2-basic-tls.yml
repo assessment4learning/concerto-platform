@@ -272,11 +272,11 @@ Resources:
           # Concerto
           mkdir /home/concerto
           cd /home/concerto
-          wget https://raw.githubusercontent.com/campsych/concerto-platform/master/deploy/docker-compose/tls/docker-compose.yml
+          wget https://raw.githubusercontent.com/assessment4learning/concerto-platform/master/deploy/docker-compose/tls/docker-compose.yml
           docker-compose up -d database concerto
 
           # TLS
-          wget https://raw.githubusercontent.com/campsych/concerto-platform/master/deploy/docker-compose/tls/install_tls.sh
+          wget https://raw.githubusercontent.com/assessment4learning/concerto-platform/master/deploy/docker-compose/tls/install_tls.sh
           chmod 775 ./install_tls.sh
           ./install_tls.sh ${DomainName} http://concerto ${Email}
       Tags:

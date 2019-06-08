@@ -44,7 +44,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "campsych/concerto-platform",
+      "image": "assessment4learning/concerto-platform",
       "startTimeout": null,
       "dependsOn": null,
       "disableNetworking": null,

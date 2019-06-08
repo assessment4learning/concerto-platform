@@ -41,7 +41,7 @@ class HomeControllerTest extends AFunctionalTest {
 
         $crawler = $client->request('GET', '/');
         $this->assertTrue($client->getResponse()->isSuccessful());
-        $this->assertTrue($crawler->filter('html:contains("Available tests")')->count() > 0);
+        $this->assertTrue($crawler->filter('html:contains("Assessment toolkit")')->count() > 0);
     }
 
     public function testFeaturedCollectionAction() {

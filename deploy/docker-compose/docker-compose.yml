@@ -9,12 +9,12 @@ services:
       - MYSQL_USER=concerto
       - MYSQL_PASSWORD=changeme
       - MYSQL_ROOT_PASSWORD=changeme
-      - TZ=Europe/London
+      - TZ=Asia/Hong_Kong
     volumes:
       - ./data/mysql:/var/lib/mysql
 
   concerto:
-    image: campsych/concerto-platform:master
+    image: assessment4learning/concerto-platform:master
     container_name: concerto
     restart: on-failure
     volumes:
@@ -22,6 +22,6 @@ services:
     environment:
       - DB_HOST=database
       - DB_PASSWORD=changeme
-      - TZ=Europe/London
+      - TZ=Asia/Hong_Kong
     ports:
       - "80:80"

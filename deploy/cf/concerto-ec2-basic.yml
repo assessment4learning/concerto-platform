@@ -234,7 +234,7 @@ Resources:
           # Concerto
           mkdir /home/concerto
           cd /home/concerto
-          wget https://raw.githubusercontent.com/campsych/concerto-platform/master/deploy/docker-compose/docker-compose.yml
+          wget https://raw.githubusercontent.com/assessment4learning/concerto-platform/master/deploy/docker-compose/docker-compose.yml
           docker-compose up -d
       Tags:
         - Key: Application

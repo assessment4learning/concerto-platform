@@ -1,4 +1,4 @@
-available.tests: Available tests
+available.tests: Assessment toolkit
 none.selected: None selected
-run.test: Run test
-no.test.selected: No test selected
+run.test: Run selected tool
+no.test.selected: No tool selected

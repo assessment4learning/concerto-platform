@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
         - name: concerto
-          image: campsych/concerto-platform
+          image: assessment4learning/concerto-platform
           ports:
             - containerPort: 80
           readinessProbe:

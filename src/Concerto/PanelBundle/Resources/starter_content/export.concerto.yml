@@ -878,7 +878,7 @@ collection:
       	</div>
       </div>
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 6bcbf576402afe775c2286da2d7cfdc41acbe026
   -
     class_name: ViewTemplate
@@ -924,7 +924,7 @@ collection:
       	</div>
       </div>
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 03fb8deb4ee2ba74e11d255918b6857ffd5a9933
   -
     class_name: ViewTemplate
@@ -951,7 +951,7 @@ collection:
       });
     html: '<input name="r[[item.id]]" ng-model="response.value" ng-required="responseRequired" type="text" />'
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: d018b13d13789362163cbf45df9dd0acaf6fe074
   -
     class_name: ViewTemplate
@@ -1385,7 +1385,7 @@ collection:
       	</div>
       </div>
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 859623e05056bac15fda4f627901e846be6a250a
   -
     class_name: ViewTemplate
@@ -1453,7 +1453,7 @@ collection:
       </form>
       
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 16316144ae06a90d5a43065e6429705c53a6885f
   -
     class_name: ViewTemplate
@@ -1526,7 +1526,7 @@ collection:
         <button name="submit" ng-disabled="!form.$valid">submit</button></form>
       
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: ec11da51ff747dcf7054e12594edd65211074334
   -
     class_name: ViewTemplate
@@ -1570,7 +1570,7 @@ collection:
       </form>
       
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: f2cd84120c5e5fd89d544571e73669c94938980d
   -
     class_name: DataTable
@@ -1597,7 +1597,7 @@ collection:
         type: boolean
         nullable: false
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: e2ba936fe247f4aed6496c984f4479b276c0936c
   -
     class_name: DataTable
@@ -1636,7 +1636,7 @@ collection:
         type: text
         nullable: false
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 4ffe389d37c5aeb9e635029a10021caed5e19b88
   -
     class_name: DataTable
@@ -1675,7 +1675,7 @@ collection:
         type: boolean
         nullable: false
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 947e8c07e96e04045f8763bbfe4abe26366b26d5
   -
     class_name: DataTable
@@ -1714,7 +1714,7 @@ collection:
         type: string
         nullable: false
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 6a88eea42660caedf519c69a254dac3be29df919
   -
     class_name: DataTable
@@ -1745,7 +1745,7 @@ collection:
         type: string
         nullable: false
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: d8dc5520a7a9bd7499e86807e55799fceb3cf131
   -
     class_name: DataTable
@@ -1788,7 +1788,7 @@ collection:
         type: float
         nullable: false
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 19091d0035ceb9d977976912c93e30382952936b
   -
     class_name: DataTable
@@ -1839,7 +1839,7 @@ collection:
         type: integer
         nullable: false
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 36e58046aa3a53e580471659368b34331f4b9dc2
   -
     class_name: Test
@@ -2041,7 +2041,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 4c325e561050b96782fdf813825c6ea3e74b09ad
   -
     class_name: Test
@@ -2256,7 +2256,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: de8d25da6702e6c2818ba6c2a058a5bc93712e24
   -
     class_name: Test
@@ -2424,7 +2424,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 04266fa93d1239e1e7f6fb70a29dce2aa78dd918
   -
     class_name: Test
@@ -2500,7 +2500,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 63637f9a713c8d0282fe8583c48e60f70d9e7955
   -
     class_name: TestWizard
@@ -2539,7 +2539,7 @@ collection:
               placeholder: 0
     test: 12
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: cedb2bba7fe654acaa6f9608cf1a653b3e16b12d
   -
     class_name: Test
@@ -2598,7 +2598,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 9e6d68b997f89eb35c8b49a83ee83a958557778c
   -
     class_name: Test
@@ -2655,7 +2655,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 4a7cb888e6f59b12d67542fc02ed8fc87fa56b65
   -
     class_name: Test
@@ -2688,7 +2688,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 220802aed8e79f2f5ea653740139ccdd5bbecd03
   -
     class_name: Test
@@ -7480,7 +7480,7 @@ collection:
         defaultReturnFunction: '1'
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: ccca3d3263d3266f0ae0c2d7192e448f2e781e6e
   -
     class_name: Test
@@ -7657,7 +7657,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: c20389365fd535283edf5622af336f56546dc565
   -
     class_name: Test
@@ -7841,7 +7841,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: c2bcc72318abfc73229cbf2815cb9d5484f6f0d0
   -
     class_name: Test
@@ -8033,7 +8033,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: b9bcbd0cd364ef13a6b6a5e1fc1dbef6390637e2
   -
     class_name: Test
@@ -8183,7 +8183,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 932e77293cbe4b9b29be31dcef919d5d8f052e7e
   -
     class_name: Test
@@ -8385,7 +8385,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: bab9cdf774e7a6ec1e6019a76ee3306d4421afa3
   -
     class_name: Test
@@ -8603,7 +8603,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 91d92eb7440b32185ff1c03d4f4717b8b6a100f4
   -
     class_name: Test
@@ -8707,7 +8707,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 8254738952e48f2d8a4975a5631db9594e643395
   -
     class_name: Test
@@ -8863,7 +8863,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 2d8b386c50394c6086aef2b527af17e357d892e4
   -
     class_name: Test
@@ -9069,7 +9069,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 6e411908e645cad157352a8f59bdd9584f339c68
   -
     class_name: Test
@@ -13262,7 +13262,7 @@ collection:
         defaultReturnFunction: '1'
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: d8c7e86a5f94f9f9df04160fc68033dc233e97b7
   -
     class_name: Test
@@ -13493,7 +13493,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 5504428e85cd8bbcd07a281c499ffc2bac9c7185
   -
     class_name: Test
@@ -13671,7 +13671,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 422abd271fdd476a1979b6d2883184195720a8ec
   -
     class_name: Test
@@ -13889,7 +13889,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: b178aa11b7d160a585f413b57ed5879b6c63a7ac
   -
     class_name: Test
@@ -14051,7 +14051,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: ff2af59b49bb4ceb3ee5f30f6123df007ae009ce
   -
     class_name: Test
@@ -14139,7 +14139,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 55965e6d961e95daded3386cde366541e05749df
   -
     class_name: Test
@@ -14199,7 +14199,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 2e7d6c28b4325218e382e2a8ef2dbb7ac09e92a8
   -
     class_name: Test
@@ -14303,7 +14303,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 3046c8b60b023b25b3421d54019fcd174985c013
   -
     class_name: Test
@@ -14517,7 +14517,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 3b7087801513f73470b21f08578916122affbd87
   -
     class_name: Test
@@ -14609,7 +14609,7 @@ collection:
     nodesConnections: {  }
     tags: ''
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 8b0a7f5cb059aa35afbdc0fcd15cfdab78c3bacc
   -
     class_name: TestWizard
@@ -14810,7 +14810,7 @@ collection:
                   tooltip: ''
     test: 5
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: be613b8457c1580f3240e484b45fa2c8bcd1feca
   -
     class_name: Test
@@ -14939,7 +14939,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 6d1cad24812a846de73ba050584d907ed0b3718d
   -
     class_name: TestWizard
@@ -15707,7 +15707,7 @@ collection:
               defvalue: ''
     test: 20
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: d39c02078828bb0fb0004664bf294af913243443
   -
     class_name: Test
@@ -15996,7 +15996,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: add567d561a06675d07119f91cd36f604878238e
   -
     class_name: TestWizard
@@ -16120,7 +16120,7 @@ collection:
               defvalue: plain
     test: 7
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 2197d36e83b1c4fbd17941fe6207aebed52d9d08
   -
     class_name: Test
@@ -16239,7 +16239,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 962b85712681044305b646950d9c87312c85dcef
   -
     class_name: TestWizard
@@ -16404,7 +16404,7 @@ collection:
               defvalue: ''
     test: 46
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 1901e55e02642456e281968900e5bcd1e748bca1
   -
     class_name: Test
@@ -16493,7 +16493,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 12524d30dc658db6432c291f17e454cd06095629
   -
     class_name: Test
@@ -16542,7 +16542,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 984026c495f333a2bfe3a8c2fb31dcd8e7b60507
   -
     class_name: TestWizard
@@ -16690,7 +16690,7 @@ collection:
                                   defvalue: 'Invalid value!'
     test: 36
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 2f71cc5ff46106e3ddf1f5f50e5f7b7af99e4224
   -
     class_name: Test
@@ -16769,7 +16769,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 2a678dbc6493bd8c474c7dd0f2e3ef239a09e0a9
   -
     class_name: Test
@@ -16792,7 +16792,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 5d1fcfde5ab036fc807cee14333758eccfd0649a
   -
     class_name: Test
@@ -16854,7 +16854,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 9eebe7e6b8d4d0a02059e05e769b3b3e3f1f60b5
   -
     class_name: TestWizard
@@ -17474,7 +17474,7 @@ collection:
               defvalue: _linearTestStatusCheckModule
     test: 30
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 622cd23244968b62bbf0092d9939a7c5c0cdbc6c
   -
     class_name: Test
@@ -17713,7 +17713,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 519845be9966eaae31536613422aa900a8c7f492
   -
     class_name: TestWizard
@@ -17792,7 +17792,7 @@ collection:
                         placeholder: 0
     test: 26
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 1ed72fe3c207865f948a6a43f4066f8d43bf6192
   -
     class_name: Test
@@ -17861,7 +17861,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 343ce8c509f271042e1c1503965cda40dbfa09d1
   -
     class_name: TestWizard
@@ -17900,7 +17900,7 @@ collection:
               defvalue: ''
     test: 3
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 359acec776c7df990114faa837b82d405812d4f8
   -
     class_name: Test
@@ -17949,7 +17949,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: eb8258d1a18c7a76c5e5f6d06786b9cb08f774d0
   -
     class_name: TestWizard
@@ -18024,7 +18024,7 @@ collection:
               defvalue: ''
     test: 1
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 84f3a68f3dd674fff9915c703d7e8cc0fd04fa5d
   -
     class_name: Test
@@ -18103,7 +18103,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: b3571dce506cfb498df80d87f4c11d716855e622
   -
     class_name: TestWizard
@@ -18206,7 +18206,7 @@ collection:
               defvalue: '0'
     test: 9
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: bf5a012ee16b9aa07173ad07ea8ed487ac949894
   -
     class_name: Test
@@ -18295,7 +18295,7 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 1a5e57703c48e4d0ea4b732269c205d8003ff2ef
   -
     class_name: TestWizard
@@ -18394,7 +18394,7 @@ collection:
               defvalue: multiColumn
     test: 48
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 259633d50b0ec5f1d83fedf1d5b7c4d39370ee0a
   -
     class_name: Test
@@ -18463,5 +18463,5 @@ collection:
     nodesConnections: {  }
     tags: _concerto_core
     groups: ''
-    starterContent: true
+    starterContent: false
     hash: 93351a71fb2cfe6d0f9cef5d75572604fc229131

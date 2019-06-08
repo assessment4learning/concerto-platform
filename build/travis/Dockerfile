@@ -1,5 +1,5 @@
-FROM campsych/concerto-platform:test
-MAINTAINER Przemyslaw Lis <przemek@concertoplatform.com>
+FROM assessment4learning/concerto-platform:test
+MAINTAINER Assessment4Learning <assessment4learning@example.com>
 
 RUN apt-get update -y \
  && apt-get install composer -y
