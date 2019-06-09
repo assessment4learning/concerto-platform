@@ -382,7 +382,8 @@ function TestController($scope, $uibModal, $http, $filter, $timeout, $state, $sc
                 if (cm.getOption("fullScreen"))
                     cm.setOption("fullScreen", false);
             },
-            "Ctrl-M": "autocomplete"
+            "Ctrl-M": "autocomplete",
+            "Shift-Space": "autocomplete"
         }
     };
     if (RDocumentation.functionIndex === null) {
