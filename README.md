@@ -6,7 +6,7 @@ Quick reference
 -----------------------
 
 * Website: [https://concertoplatform.com](https://concertoplatform.com)
-* Wiki: [https://github.com/campsych/concerto-platform/wiki](https://github.com/assessment4learning/concerto-platform/wiki)
-* Issue tracker: [https://github.com/campsych/concerto-platform/issues](https://github.com/assessment4learning/concerto-platform/issues)
-* Docker Hub: [https://hub.docker.com/r/campsych/concerto-platform](https://hub.docker.com/r/assessment4learning/concerto-platform)
-* Source code: [https://github.com/campsych/concerto-platform](https://github.com/assessment4learning/concerto-platform)
+* Wiki: [https://github.com/campsych/concerto-platform/wiki](https://github.com/campsych/concerto-platform/wiki)
+* Issue tracker: [https://github.com/campsych/concerto-platform/issues](https://github.com/campsych/concerto-platform/issues)
+* Docker Hub: [https://hub.docker.com/r/campsych/concerto-platform](https://hub.docker.com/r/campsych/concerto-platform)
+* Source code: [https://github.com/campsych/concerto-platform](https://github.com/campsych/concerto-platform)
